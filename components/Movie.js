@@ -274,7 +274,7 @@ export default function Movie(
                         <input type="text"
                             id="slug"
                             placeholder="slug link image"
-                            value={smposter}
+                            value={slug}
                             onChange={handleSlugChange}
                         />
                     </div>
