@@ -59,7 +59,7 @@ export default function Movie(
             watchonline, downloadlink, status
         }
         if (_id) {
-            await axios.put('/api/getmovie', {...data, _id})
+            await axios.put('/api/getmovies', {...data, _id})
         } else {
             await axios.post('/api/getmovies', data);
         }
@@ -74,7 +74,7 @@ export default function Movie(
 
 
     //movie category
-    const categories = ["Bollywood", "Hollywood", "South", "Gujarati", "Marvel_Studio", "Tv_Shows", "Web_Series"]
+    const categories = ["Bollywood", "Hollywood", "South", "Gabonais", "Marvel_Studio", "Tv_Shows", "Web_Series"]
 
     //download link function
 
